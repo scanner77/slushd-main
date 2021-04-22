@@ -3,10 +3,7 @@ import {
   SidebarContainer,
   Icon,
   CloseIcon,
-  SidebarMenu,
-  SidebarLink,
-  SidebarRoute,
-  SideBtnWrap
+  SidebarMenu
 } from './SidebarElements';
  
 const Sidebar = ({ isOpen, toggle }) => {
@@ -16,13 +13,14 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon /> {/* This is the cross X button to minimize the sidebar */}
       </Icon>
       <SidebarMenu> {/* Creating three options in the side bar menu */}
-        <SidebarLink to='/'>Food</SidebarLink>
-        <SidebarLink to='/'>Reserve Seat</SidebarLink>
-        <SidebarLink to='/'>Full Menu</SidebarLink>
+      <p>Email: slushdadaok@gmail.com</p>
+      <p>Phone: (580) 279-0833</p>
+      <p>Hours: Mon-Thursday 2pm-12am <br />
+Friday-Saturday 2pm-2am</p>
+<p>Address: 214 W Main Street Ada, Oklahoma 74820</p>
+    
       </SidebarMenu>
-      <SideBtnWrap>
-        <SidebarRoute to='/'>Order Now</SidebarRoute>
-      </SideBtnWrap>
+
     </SidebarContainer>
   );
 };

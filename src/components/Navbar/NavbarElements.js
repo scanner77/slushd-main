@@ -41,7 +41,9 @@ export const NavIcon = styled.div` /* Two nav icons at right hand */
   }
 `;
 
-export const Bars = styled(FaPizzaSlice)` /* Pizza Slice at the right hand top side */
+export const Bars = styled(FaPizzaSlice)` /* Pizza Slice at the right hand top side // it comes from react library*/
+//popular icons in your React projects easily with react-icons
+//npm install react-icons --save
   font-size: 2rem;
   transform: translate(-50%, -15%);
   // border: 10px solid white;

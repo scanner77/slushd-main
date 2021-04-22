@@ -6,7 +6,6 @@ import Products from './components/Products';
 import { productData, productDataTwo } from './components/Products/data';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
-import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
     - Router is faster and more efficient way to link endpoints */}
       <GlobalStyle />
       <Hero /> {/* Hero from the hero component */}
-      <ContactUs />
+    
       <Products heading ='Choose your favorite' data={productData} />
             {/* Here heading and data are given a value, we use this in index.js of Products component */}
       <Feature />

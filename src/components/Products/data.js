@@ -1,68 +1,68 @@
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/wings.jpg';
-import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/slushdone.jpg';
-import sweet2 from '../../images/sweet.jpg';
-import sweet3 from '../../images/sweet-1.jpg';
+import product1 from '../../images/2malibu-glasses.png';
+import product2 from '../../images/SlushD-Green-Apple.png';
+import product3 from '../../images/SlushD-Strawberry.png';
+import sweet1 from '../../images/SlushD-GA-w-SPK.png';
+import sweet2 from '../../images/SlushD-blue-w-Nerds.png';
+import sweet3 from '../../images/SlushD-SB-w-GB.png';
 
 export const productData = [
   {
     
     img: product1, //this is imported from above like this: import product1 from '../../images/product-1.jpg';
 
-    alt: 'Pizza', 
-    name: 'Supreme Pizza',
+    alt: '2 Drinks', 
+    name: 'Mixed Drink',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$19.99',
-    button: 'Add to Cart'
+      'Shown here are two of the different variety of mixed drinks we offer.',
+    price: '$10 Each',
+    button: 'View'
   },
   {
     img: product2,
-    alt: 'Wings',
-    name: 'Hawaiian Wings',
+    alt: 'Green Apple',
+    name: 'Green Apple Slush',
     desc:
-      ' Marinara sauce, basil, italian sausage, red chillies, olives, and pesto',
-    price: '$16.99',
-    button: 'Add to Cart'
+      ' A plain green apple flavored slush served with or without alcohol',
+    price: '$10',
+    button: 'View'
   },
   {
     img: product3,
-    alt: 'Pizza',
-    name: 'Veggie Overload',
+    alt: 'Strawberry',
+    name: 'Strawberry Slush',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$14.99',
-    button: 'Add to Cart'
+      ' A plain strawberry slush served with or without alcohol',
+    price: '$10',
+    button: 'View'
   }
 ];
 
 export const productDataTwo = [
   {
     img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
+    alt: 'Blue w nerds',
+    name: 'Blue with Nerds candy',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-    price: '$5.99',
-    button: 'Add to Cart'
+      'A delicious blue slush with everclear topped with sour Nerds candy',
+    price: '$10',
+    button: 'View'
   },
   {
     img: sweet3,
-    alt: 'Ice Cream',
-    name: 'Caramel Wonder',
+    alt: 'SB w GB',
+    name: 'Strawberry with gummy bears',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
-    price: '$4.99',
-    button: 'Add to Cart'
+      'Strawberry flavored slush topped with gummy bears',
+    price: '$10',
+    button: 'View'
   },
   {
     img: sweet1,
-    alt: 'Kiwi Strawberry',
-    name: 'Kiwi Strawberry',
+    alt: 'GA w SPK',
+    name: 'Green Apple with SPK',
     desc:
-      'A kiwi strawberry drink with cold ice and some fruits',
-    price: '$4.99',
-    button: 'Add to Cart'
+      'Green apple flavored with Sour Patch Kids candy',
+    price: '$10',
+    button: 'View'
   }
 ];
